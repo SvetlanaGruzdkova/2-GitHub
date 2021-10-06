@@ -2,6 +2,10 @@
     "name": "svetlana",
     "age": 36,
     "animals": 0,
-    "salary": "70000 R.net"
+    "salary": "70000 Rs.net",
+    "movie": "where dreams may come",
+    "TV series": "game of Thrones",
+    "food": "berry",
+    "season": "summer",
+    "country": "maldives"
 }
-
