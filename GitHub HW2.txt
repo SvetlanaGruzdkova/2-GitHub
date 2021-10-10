@@ -1,0 +1,80 @@
+﻿Homework2      Svetlana Gruzdkova
+
+
+https://github.com/SvetlanaGruzdkova/exp2
+
+
+4. Создать файл “new.json”                                           / > new.json    
+5. Добавить файл под гит.                                             / git add new.json
+6. Закоммитить файл.                                                    / git commit -m "1.json"
+7. Отправить файл на внешний GitHub репозиторий  / git push
+8. Создать файлы new2.json, new2.xml, new2.txt         / touch new2.json new2.xml new2.txt
+9. Добавить файлы под гит                                            / git add .
+10. Закоммитить файлы                                                 / git commit -m "new2 json txt xml"
+11. Отправить файлы на внешний GitHub репозиторий/git push
+12. Отредактировать содержание файла “new2.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата) / vim new2.txt       
+13. Отредактировать содержание файла “new2.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON        /  vim new2.json
+{
+    "name": "Svetlana",
+    "age": 36,
+    "animals": 0,
+    "salary": "70000R.net"
+}
+14. Добавить и закоммитить “new2.txt” одной строчкой/git add new2.txt && git commit -m "2 info"
+15. Добавить и закоммитить “new2.json” одной строчкой/git add new2.json && git commit -m "2 info"
+16. Отправить изменения на внешний репозиторий       git push
+17. Отредактировать содержание файла “new2.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML/
+<?xml version = "1.0"?>
+<info>
+   <name>Svetlana</name>
+   <age>36</age>
+   <animals>0</animals>
+   <salary>70000 R.net</salary>
+</info>
+18. Добавить и закоммитить “new2.xml” одной строчко/ git add new2.xml && git commit -m "2 info"
+19. Отправить изменения на внешний репозиторий  /   git push
+20. Отправить предыдущее домашнее задание по GitBush Terminal на внешний репозиторий. https://github.com/SvetlanaGruzdkova/GIT-Bash-
+/mv ./1GitBash.txt ./GIT-Bash-/
+/git add 1GitBash.txt && git commit -m "exp1"
+/git push
+21. В веб интерфейсе GitHub создать файл new3.txt.+
+22. Отредактировать в веб интерфейсе содержание файла “new3.txt” - написать информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить).+
+23. Сделать Commit changes (сохранить) изменения на веб интерфейсе.+
+24. Синхронизировать внешний и локальный репозитории (слить изменения с внешнего репозитория) /git pull
+25. Отредактировать в веб интерфейсе содержание файла “new2.json” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате JSON+
+26. Сделать Commit changes (сохранить) изменения на веб интерфейсе.+
+27. Синхронизировать внешний и локальный репозитории /git pull
+28. Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате XML.+
+29. Сделать Commit changes (сохранить) изменения на веб интерфейсе.+
+30. Синхронизировать внешний и локальный репозитории /git pull
+/ ~/QA/exp2/exp2 (main)
+* git fetch
+……..-> origin/main
+* git pull
+* cat new3.txt
+"Куда приводят мечты", "Игра престолов", ягоды, лето, Мальдивы
+*  cat new2.xml
+<?xml version = "1.0"?>
+<info>
+   <name>Svetlana</name>
+   <age>36</age>
+   <animals>0</animals>
+   <salary>70000 R.net</salary>
+   <movie>where dreams may come</movie>
+   <TV>game of Thrones</TV>
+   <food>berry</food>
+   <season>summer</season>
+   <country>maldives</country>
+</info>
+*  cat new2.json
+{
+    "name": "Svetlana",
+    "age": 36,
+    "animals": 0,
+    "salary": "70000 Rs.net",
+    "movie": "where dreams may come",
+    "TV series": "game of Thrones",
+    "food": "berry",
+    "season": "summer",
+    "country": "maldives"
+}
